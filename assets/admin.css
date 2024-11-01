@@ -1,0 +1,68 @@
+#settings, #social, #styling , #upgrade {
+	display: none;
+}
+#sc-submit-wrapper {
+	position: absolute;
+	right: 30px;
+	margin-top: -73px;
+}
+#sc-settings-wrapper table {
+	padding: 25px 5px;
+}
+a.nav-tab.active {
+    background-color: #fff;
+    box-shadow: none;
+}
+.sc-notification-repeatable {
+	border: 1px solid #e5e5e5;
+	padding: 10px;
+	border-radius: 5px;
+}
+#sc-settings-wrapper label {
+    cursor: pointer;
+    display: table-header-group;
+}
+#sc-settings-wrapper textarea {
+	min-width: 460px;
+}   
+#remScnt, #moveUp, #moveDown {
+    position: relative;
+    background: #008EC2;
+    color: #fff;
+    padding: 1px 7px 3px;
+    margin: 5px -3px 0 4px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 11px;
+    display: inline-block;
+    opacity: 0.6;
+} 
+#remScnt {
+    background-color: #c0392b;
+}
+
+#remScnt:hover, #moveUp:hover, #moveDown:hover {
+    opacity: 1;
+}
+.sc-notification-repeatable:first-of-type #moveUp, .sc-notification-repeatable:first-of-type #remScnt {
+    display: none;
+}
+.sc-notification-repeatable:last-of-type #moveDown {
+    display: none;
+}
+#sc-settings-wrapper #settings tr,#sc-settings-wrapper #social tr,#sc-settings-wrapper #styling tr ,#sc-settings-wrapper #notifications tr {
+    text-align: left;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#sc-settings-wrapper #settings tr th, #sc-settings-wrapper #social tr th , #sc-settings-wrapper #styling tr th, #sc-settings-wrapper #notifications tr th {
+    min-width: 300px;
+}
+
+#sc-settings-wrapper th small {
+    clear: left;
+    display: block;
+    max-width: 270px;
+    font-weight: 400;
+}
